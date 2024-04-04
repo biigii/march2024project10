@@ -1,0 +1,22 @@
+// font-size of html is 16px
+// alias for html is root (:root)
+
+article {
+    // em looks at the font-size of element itself or its parent
+    // font-size: 50px;
+    h1 {
+        // 2em  = 2 x 16px
+        // font-size: 2em
+        font-size: 2rem;
+    }
+
+    p {
+        font-size: 1em;
+    }
+}
+
+.box {
+    width: 40em; // 40 x 16px
+    height: 20em; // 20 x 16px
+    border: 0.5em solid
+}
