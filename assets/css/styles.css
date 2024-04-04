@@ -4,15 +4,33 @@
   padding: 0;
 }
 
-article h1 {
-  font-size: 2rem;
+@font-face {
+  font-family: "Reddit Regular";
+  src: url("../fonts/RedditMono-Regular.ttf");
 }
-article p {
-  font-size: 1em;
+@font-face {
+  font-family: "Reddit Extra Light";
+  src: url("../fonts/RedditMono-ExtraLight.ttf");
+}
+@font-face {
+  font-family: "Caveat Regular";
+  src: url("../fonts/Caveat-Regular.ttf");
+}
+h3 {
+  font-size: 4em;
+  font-family: "Courier New", Courier, monospace;
 }
 
-.box {
-  width: 40em;
-  height: 20em;
-  border: 0.5em solid;
+h1 {
+  font-family: "Reddit Extra Light", Arial, Helvetica, sans-serif;
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+  font-family: "Caveat Regular";
+}
+
+p {
+  font-family: "Reddit Regular";
 }/*# sourceMappingURL=styles.css.map */
