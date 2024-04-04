@@ -1,34 +1,38 @@
-@font-face {
-  font-family: "Reddit Regular";
-  src: url("../fonts/RedditMono-Regular.ttf");
-}
+// h1 {
+//     font-size: 5em;
+//     font-family: "Space Mono", monospace;
+// }
 
-@font-face {
-  font-family: "Reddit Extra Light";
-  src: url("../fonts/RedditMono-ExtraLight.ttf");
-}
+// p {
+//     font-size: 2em;
+//     font-family: "Permanent Marker", cursive;
+// }
 
-@font-face {
-  font-family: "Caveat Regular";
-  src: url("../fonts/Caveat-Regular.ttf");
-}
-
-h3 {
-  font-size: 4em;
-  font-family: "Courier New", Courier, monospace;
+html {
+    font-family: "Roboto", sans-serif;
 }
 
 h1 {
-  // two ways we can get custom font
-  font-family: "Reddit Extra Light", Arial, Helvetica, sans-serif;
-  font-size: 4em;
-}
-
-h2 {
-  font-size: 3em;
-  font-family: "Caveat Regular";
+    color: #44f;
+    // font-family:'Times New Roman', Times, serif;
+    // font-size: 5em;
+    // font-style: italic;
+    // font-weight: 100;
+    font: {
+        family: 'Times New Roman', Times, serif;
+        size: 5em;
+        style: italic;
+        weight: 100
+    }
 }
 
 p {
-  font-family: "Reddit Regular";
+    font-size: 2em;
+    // font-variant: small-caps;
+    // 100 200 300 400 500 600 700 800 900
+    // thinnest to the thickest 
+    font-weight: 400;
+    // line-height: 50px;
+    line-height: 1.2; //default
+    font: italic small-caps 700 4em/40px "Arial";
 }
