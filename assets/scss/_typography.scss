@@ -13,6 +13,10 @@ html {
 }
 
 h1 {
+    margin: {
+        top: 20px;
+        bottom: 50px
+    }
     color: #44f;
     // font-family:'Times New Roman', Times, serif;
     // font-size: 5em;
@@ -20,10 +24,13 @@ h1 {
     // font-weight: 100;
     font: {
         family: 'Times New Roman', Times, serif;
-        size: 5em;
+        size: 3em;
         style: italic;
         weight: 100
     }
+    text-align: center;
+    text-shadow: 10px 10px 3px #ed0505;
+    text-decoration: underline;
 }
 
 p {
@@ -34,5 +41,26 @@ p {
     font-weight: 400;
     // line-height: 50px;
     line-height: 1.2; //default
-    font: italic small-caps 700 4em/40px "Arial";
+    // font: italic small-caps 700 4em/40px "Arial";
+    text-align: justify;
+    // text-decoration: line-through;
+    // letter-spacing: 5px;
+    word-spacing: 30px;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    border: 2px solid;
+    // box-shadow: 10px 10px 5px inset #f11;
+    box-shadow: -10px -10px 7px #567;
+}
+
+a {
+    display: block;
+    margin-left: 200px;
+    font-size: 2em;
+    text-transform: lowercase;
+    text-decoration: none;
 }
